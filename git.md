@@ -24,6 +24,16 @@
       #将该仓库和远程git@github.com:Java-panda/gitexe.git进行绑定
       git remote add origin git@github.com:Java-panda/gitexe.git
       
+      #push并将远程origin绑定为main的上游
+      git push -u origin main
+      
+      #从远程origin拉取到本地main
+      git pull origin main
+      
+      #绑定上游之后的省略模式
+      git push
+      git pull
+      
       
       ```
       
